@@ -1,6 +1,6 @@
 {
-    "name": "Let's wait for the world to end",
-    "refId": "{{ var "refId" ?: "wait-for-the-world-end" }}",
+    "name": "Let's wait for the world to end or not?",
+    "refId": "{{ var "refId" ?: "1" }}",
     "requisiteStageRefIds": {{ var "requisiteStageRefIds" ?: [] }},
     "type": "wait",
     "waitTime": {{ var "waitTime" ?: 199000 }}
