@@ -7,7 +7,7 @@
 
   "pipelines": [
       {
-        "application": "dummy",
+        "application": "spinlobo",
         "keepWaitingPipelines": false,
         "name": "dinghy-test",
         "limitConcurrent": true,
