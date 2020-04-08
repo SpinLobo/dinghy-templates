@@ -3,7 +3,7 @@
   "pipelines": [
     {
       "application": "spinlobo",
-      "name": "my-pipeline-name1",
+      "name": "my-pipeline-name",
       "stages": [
         {
           "name": "one",
