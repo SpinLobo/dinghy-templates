@@ -1,5 +1,5 @@
 {
-    "name": "Si o no jala Let's wait for the world to end",
+    "name": "Si o no jala Let's wait for the world to end probando",
     "refId": "{{ var "refId" ?: "1" }}",
     "requisiteStageRefIds": {{ var "requisiteStageRefIds" ?: [] }},
     "type": "wait",
