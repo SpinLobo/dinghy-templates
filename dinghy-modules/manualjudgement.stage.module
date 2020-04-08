@@ -2,7 +2,7 @@
   "failPipeline": true,
   "instructions": "Should we deploy to prod?",
   "judgmentInputs": [],
-  "name": "Manual Judgment",
+  "name": "Manual Judgment 2",
   "notifications": [],
   "refId": "{{ var "refId" ?: "popping-the-prod-question" }}",
   "requisiteStageRefIds": {{ var "requisiteStageRefIds" ?: [] }},
