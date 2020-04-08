@@ -3,7 +3,7 @@
     "pipelines": [{
         "application": "spinlobo",
         "keepWaitingPipelines": false,
-        "name": "dinghy-test2",
+        "name": "dinghy-test1",
         "limitConcurrent": true,
         "stages": [{{
                     module "dinghy-modules/wait.stage.module"
