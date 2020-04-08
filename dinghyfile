@@ -1,0 +1,38 @@
+{
+  "application": "training",
+  "globals": {
+      "bakedArtifactId": "helmBakedNginX"
+
+  },
+
+  "pipelines": [
+      {
+        "application": "dummy",
+        "keepWaitingPipelines": false,
+        "name": "dinghy-test",
+        "limitConcurrent": true,
+        "stages": [
+          {{ module "dinghy-modules/wait.stage.module"
+              "name" "waitStage"
+              "refId" 1
+              "requisiteStageRefIds" []
+              "waitTime" "3"
+              "completeOtherBranchesThenFail" true
+              "continuePipeline" true
+              "failPipeline" false
+              "restrictExecutionDuringTimeWindow" true
+              "restrictedExecutionWindow" {}
+          }},
+          {{ module "dinghy-modules/manualjudgement.stage.module" 
+              "name" "manualJudgment"
+              "refId" 2
+              "requisiteStageRefIds" ["1"]
+              "instructions" "Please check"
+          }}
+
+        ],
+        "triggers": [],
+        "updateTs": "1567185128000"
+      }
+   ]
+}
