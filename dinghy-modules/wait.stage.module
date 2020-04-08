@@ -1,7 +1,7 @@
 {
-    "name": "Nel con Let's wait for the world to end",
+    "name": "No jala Let's wait for the world to end",
     "refId": "{{ var "refId" ?: "wait-for-the-world-end" }}",
     "requisiteStageRefIds": {{ var "requisiteStageRefIds" ?: [] }},
     "type": "wait",
-    "waitTime": {{ var "waitTime" ?: 199000 }}
+    "waitTime": {{ var "waitTime" ?: 19000 }}
 }
