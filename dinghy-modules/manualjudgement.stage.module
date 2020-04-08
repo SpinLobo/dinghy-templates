@@ -1,6 +1,6 @@
 {
   "failPipeline": true,
-  "instructions": "Should we deploy to prod now?",
+  "instructions": "Should we deploy to prod now or tomorrow?",
   "judgmentInputs": [],
   "name": "Manual Judgment",
   "notifications": [],
