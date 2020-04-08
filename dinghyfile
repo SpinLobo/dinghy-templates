@@ -2,7 +2,7 @@
   "application": "spinlobo",
   "pipelines": [
     {
-      "application": "helloworldapp2",
+      "application": "spinlobo",
       "name": "my-pipeline-name",
       "stages": [
         {
