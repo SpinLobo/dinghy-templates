@@ -13,7 +13,7 @@
                     1
                         "requisiteStageRefIds" []
                     "waitTime"
-                    "3"
+                    "6"
                     "completeOtherBranchesThenFail"
                     true
                         "continuePipeline"
