@@ -1,33 +1,16 @@
 {
   "application": "spinlobo",
   "pipelines": [
-      {
-        "application": "spinlobo",
-        "keepWaitingPipelines": false,
-        "name": "dinghy-test1",
-        "limitConcurrent": true,
-        "stages": [
-          {{ module "dinghy-modules/wait.stage.module"
-              "name" "waitStage"
-              "refId" 1
-              "requisiteStageRefIds" []
-              "waitTime" "3"
-              "completeOtherBranchesThenFail" true
-              "continuePipeline" true
-              "failPipeline" false
-              "restrictExecutionDuringTimeWindow" true
-              "restrictedExecutionWindow" {}
-          }},
-          {{ module "dinghy-modules/manualjudgement.stage.module" 
-              "name" "manualJudgment"
-              "refId" 2
-              "requisiteStageRefIds" ["1"]
-              "instructions" "Please check"
-          }}
-
-        ],
-        "triggers": [],
-        "updateTs": "1567185128000"
-      }
-   ]
+    {
+      "application": "helloworldapp",
+      "name": "my-pipeline-name",
+      "stages": [
+        {
+          "name": "one",
+          "type": "wait",
+          "waitTIme": 10
+        }
+      ]
+    }
+  ]
 }
