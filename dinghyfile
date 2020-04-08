@@ -1,10 +1,5 @@
 {
-  "application": "training",
-  "globals": {
-      "bakedArtifactId": "helmBakedNginX"
-
-  },
-
+  "application": "spinlobo",
   "pipelines": [
       {
         "application": "spinlobo",
