@@ -1,5 +1,5 @@
 {
-    "name": "Let's wait for the world to end works 4?",
+    "name": "Let's wait for the world to end works 5?",
     "refId": "{{ var "refId" ?: "1" }}",
     "requisiteStageRefIds": {{ var "requisiteStageRefIds" ?: [] }},
     "type": "wait",
