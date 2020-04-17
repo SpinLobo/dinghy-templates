@@ -23,6 +23,15 @@
                         "restrictExecutionDuringTimeWindow"
                     true
                         "restrictedExecutionWindow" {}
+                }},{{
+                    module "dinghy-modules/manualjudgement.stage.module"
+                    "name"
+                    "manualJudgment"
+                    "refId"
+                    2
+                        "requisiteStageRefIds" ["1"]
+                    "instructions"
+                    "Please check"
                 }}
         ],
         "triggers": [],
