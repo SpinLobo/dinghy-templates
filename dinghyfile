@@ -23,7 +23,7 @@
                         "restrictExecutionDuringTimeWindow"
                     true
                         "restrictedExecutionWindow" {}
-                }}, {{
+                }},{{
                     module "dinghy-modules/manualjudgement.stage.module"
                     "name"
                     "manualJudgment"
